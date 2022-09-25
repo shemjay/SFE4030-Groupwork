@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Commodity Tracker</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
     <main>
         <!--Navbar-->
         <nav>
-            <h1 class = "logo">CommodityTracker</h1>
+            <h1 class = "logo"><a href = "#">CommodityTracker</a></h1>
             <ul>
             <a href = "#"><li>Home</li></a>
             <a href = "#"><li>Price Tracking</li></a>
@@ -22,7 +22,7 @@
         </nav>
         
         <!--Hero image and content-->
-        <div class = "hero">
+        <div class = "hero-img">
             <div class = "hero-text">
                 <h2>Stay ahead of the curve</h2>
                 <p>Lorem ipsum doloi</p>
@@ -36,21 +36,26 @@
                     ac felis laoreet, lacinia turpis ac, ullamcorper purus. 
                     Aenean eu ultricies nibh. Sed malesuada venenatis massa 
                     euismod placerat. Pellentesque sed velit ligula. Suspendisse 
-                    sollicitudin hendrerit tortor, vel interdum quam blandit eu.</p>
+                    sollicitudin hendrerit tortor, vel interdum quam blandit eu.
+                </p>
+                <div class = "hero-btn">
+                    <button class = "hero-btn">Get Started</button>
+                </div>
             </div>
-            <button class = "hero-btn">Get Started</button>
         </div>
 
         <!--Image gallery-->
         <div class = "gallery">
-            <h2>Featured products</h2>
+        <div class = "gallery-text">
+            <h2 class = "gallery-title">Featured products</h2>
             <p>Browse the most popularly checked items</p>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
+        </div>
+        <div class = "gallery-images">
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>  
+        </div>
         </div>
 
         <!--Graph-->
@@ -61,8 +66,9 @@
 
 
         <!--Footer-->
-        <div clas = "">
-
+        <div class = "footer">
+            <p>Author: Hege Refsnes Copyright &copy; Devpractical.com</p>
+            <p><a href="mailto:hege@example.com">hege@example.com</a></p>
         </div>
     </main>
 	<script src="index.js"></script>
