@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@500;700&display=swap');
+
+
+
 /* Box sizing rules */
 *,
 *::before,
@@ -16,6 +20,7 @@ figure,
 blockquote,
 dl,
 dd {
+  font-family: 'Lato', 'sans-serif';
   margin: 0;
 }
 
@@ -93,6 +98,7 @@ nav a {
 }
 
 nav ul li {
+    color: black;
     margin: 10px 20px;
 }
 
@@ -117,10 +123,19 @@ nav ul li {
 
 .hero-text {
     color: rgb(255, 255, 255);
-    border: 1px solid red;
     margin: 20px;
-    padding: 14px;
+    padding: 60px;
 }
+
+.hero-text h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+}
+
 
 /* gallery styles */
 
@@ -134,8 +149,17 @@ nav ul li {
     position: relative;
 }
 
-.gallery-text {
-    margin-bottom: 50px;
+.gallery-text h2 {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.gallery-text p {
+  padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
 }
 
 .gallery-images {
@@ -144,12 +168,14 @@ nav ul li {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-bottom: 2em;
 }
 
 /* form styles */
 
 .form {
     height: 90vh;
+    color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
     background-position: center;
     background-repeat: no-repeat;
@@ -159,6 +185,14 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
+}
+
+/* Footer styles */
+.footer {
+  color: black;
+  text-align: center;
+  background-color: lightgray;
+  padding: 40px;
 }
 
 
