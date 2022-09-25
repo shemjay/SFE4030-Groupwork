@@ -144,13 +144,23 @@ nav ul li {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    
 }
 
-.gallery-1 img {
-    
-    
+/* form styles */
+
+.form {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1564939558297-fc396f18e5c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
 }
+
 
 
 

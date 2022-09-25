@@ -51,19 +51,42 @@
             <p>Browse the most popularly checked items</p>
         </div>
         <div class = "gallery-images">
-            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>
-            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></div></a>
-            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>
-            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/150x150.png" alt = "placeholder"></a></div>  
-        </div>
-        </div>
-
-        <!--Graph-->
-        <h2 class = "graph-title">View results of pricing</h2>
-        <div class = "graph">
-            <img src = "https://placehold.jp/400x400.png" alt = "commodity tracking graph">
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/200x200.png" alt = "placeholder"></a></div>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/200x200.png" alt = "placeholder"></a></div>            <a href = "#"><div class = "gallery-1"><img src = "https://placehold.jp/200x200.png" alt = "placeholder"></div></a>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/200x200.png" alt = "placeholder"></a></div>
+            <div class = "gallery-1"><a href = "#"><img src = "https://placehold.jp/200x200.png" alt = "placeholder"></a></div>  
         </div>
 
+        <button>Check your prices now</button>
+        </div>
+
+        <!--CRUD form-->
+        <div class = "form">
+        <div class = "form-text">
+            <h2 class = "form-title">View results of pricing</h2>
+        </div>
+
+        <div class = "form-buttons">
+            <button>View entries</button>
+            <button>Add an entry</button>
+            <button>Edit an entry</button>
+            <button>Delete an entry</button>
+        </div>
+
+        
+            <form>
+                <label for="fname">Item name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Entry ID (4 characters):</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date"><br>
+                <label for="price">Price:</label><br>
+                <input type="price" id="price" name="price"><br>
+                <label for="submit"></label><br>
+                <input type="submit" id="submit" name="Add">
+              </form>
+        </div>
 
         <!--Footer-->
         <div class = "footer">
@@ -71,6 +94,7 @@
             <p><a href="mailto:hege@example.com">hege@example.com</a></p>
         </div>
     </main>
+
 	<script src="index.js"></script>
   </body>
 </html>
